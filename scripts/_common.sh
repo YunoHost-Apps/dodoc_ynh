@@ -4,4 +4,4 @@
 # COMMON VARIABLES
 #=================================================
 
-nodejs_version="20.9.0"
+nodejs_version=18
