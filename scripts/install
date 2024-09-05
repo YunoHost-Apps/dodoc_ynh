@@ -51,9 +51,7 @@ yunohost service add "$app" --description="Documentation tool for creativity" --
 ynh_script_progression --message="Installing the app..." --weight=10
 
 pushd "$install_dir"
- 	ynh_use_nodejs
  	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm install --no-optional
-	#ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm run build
 popd
 
 chmod -R o-rwx "$install_dir"
