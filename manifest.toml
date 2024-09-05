@@ -1,0 +1,67 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "dodoc"
+name = "DoDoc"
+description.en = "Documentation tool for creativity"
+description.fr = "Outil de documentation pour la créativité"
+
+version = "10.0.10~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "AGPL-3.0-only"
+website = "https://dodoc.fr/"
+admindoc = "https://github.com/l-atelier-des-chercheurs/dodoc#readme"
+code = "https://github.com/l-atelier-des-chercheurs/dodoc"
+
+[integration]
+yunohost = ">= 11.2.30"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+
+    url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/refs/tags/v10.0.10.tar.gz"
+    sha256 = "15df9e91f9070885171d8117486023e0c4e836a3d377b12e1cc1149ac0dbe2a2"
+
+    # autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
+
+    [resources.apt]
+    packages = "build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev"
+
+    #[resources.database]
+    #type = "mysql"

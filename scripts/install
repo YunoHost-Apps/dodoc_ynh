@@ -1,0 +1,72 @@
+#!/bin/bash
+
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
+source _common.sh
+source /usr/share/yunohost/helpers
+
+#=================================================
+# INSTALL DEPENDENCIES
+#=================================================
+ynh_script_progression "Installing dependencies..."
+
+ynh_nodejs_install
+
+#=================================================
+# INITIALIZE AND STORE SETTINGS
+#=================================================
+
+#=================================================
+# DOWNLOAD, CHECK AND UNPACK SOURCE
+#=================================================
+ynh_script_progression --message="Setting up source files..." --weight=1
+
+ynh_setup_source --dest_dir="$install_dir"
+
+chown -R "$app:www-data" "$install_dir"
+
+#=================================================
+# APP INITIAL CONFIGURATION
+#=================================================
+ynh_script_progression --message="Adding $app's configuration files..." --weight=1
+
+ynh_add_config --template="settings.example.json" --destination="$install_dir/settings.json"
+
+chmod 400 "$install_dir/settings.json"
+chown "$app:$app" "$install_dir/settings.json"
+
+#=================================================
+# SYSTEM CONFIGURATION
+#=================================================
+ynh_script_progression --message="Adding system configurations related to $app..." --weight=1
+
+ynh_add_nginx_config
+
+ynh_add_systemd_config
+
+yunohost service add "$app" --description="Documentation tool for creativity" --log="/var/log/$app/$app.log"
+
+#=================================================
+# INSTALL DODOC
+#=================================================
+ynh_script_progression --message="Installing the app..." --weight=10
+
+pushd "$install_dir"
+ 	ynh_use_nodejs
+ 	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm install --no-optional
+	#ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm run build
+popd
+
+#=================================================
+# START SYSTEMD SERVICE
+#=================================================
+ynh_script_progression --message="Starting $app's systemd service..." --weight=1
+
+ynh_systemd_action --service_name="$app" --action="start" --log_path="/var/log/$app/$app.log"
+
+#=================================================
+# END OF SCRIPT
+#=================================================
+ynh_script_progression --message="Installation of $app completed" --last

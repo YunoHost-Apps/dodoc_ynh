@@ -1,0 +1,11 @@
+{
+  "desired_port": __PORT__,
+  "contentPath": "dodoc",
+  "removePermanently": false,
+
+  "api": {
+    "enabled": false,
+    "allow_all_domains": false,
+    "domains_whitelist": ["127.0.0.1"]
+  }
+}

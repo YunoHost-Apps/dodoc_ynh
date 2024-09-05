@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
+source _common.sh
+source /usr/share/yunohost/helpers
+
+#=================================================
+# REMOVE SYSTEM CONFIGURATIONS
+#=================================================
+ynh_script_progression --message="Removing system configurations related to $app..." --weight=1
+
+if ynh_exec_warn_less yunohost service status "$app" >/dev/null; then
+    yunohost service remove "$app"
+fi
+ynh_remove_systemd_config
+
+ynh_remove_nginx_config
+
+#=================================================
+# END OF SCRIPT
+#=================================================
+
+ynh_script_progression --message="Removal of $app completed" --last
