@@ -13,6 +13,7 @@ source /usr/share/yunohost/helpers
 ynh_script_progression "Installing dependencies..."
 
 ynh_install_nodejs --nodejs_version=$nodejs_version
+ynh_use_nodejs
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
