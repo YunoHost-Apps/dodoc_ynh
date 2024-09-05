@@ -54,9 +54,6 @@ pushd "$install_dir"
  	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm install --no-optional
 popd
 
-chmod -R o-rwx "$install_dir"
-chown -R "$app:www-data" "$install_dir"
-
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
