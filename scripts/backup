@@ -33,13 +33,6 @@ ynh_backup --src_path="/etc/nginx/conf.d/$domain.d/$app.conf"
 ynh_backup --src_path="/etc/systemd/system/$app.service"
 
 #=================================================
-# BACKUP THE MYSQL DATABASE
-#=================================================
-ynh_print_info --message="Backing up the MySQL database..."
-
-ynh_mysql_dump_db --database="$db_name" > db.sql
-
-#=================================================
 # END OF SCRIPT
 #=================================================
 

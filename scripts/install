@@ -12,11 +12,7 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Installing dependencies..."
 
-ynh_nodejs_install
-
-#=================================================
-# INITIALIZE AND STORE SETTINGS
-#=================================================
+ynh_install_nodejs --nodejs_version=$nodejs_version
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE

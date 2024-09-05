@@ -47,7 +47,7 @@ ram.runtime = "50M"
     url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/refs/tags/v10.0.10.tar.gz"
     sha256 = "15df9e91f9070885171d8117486023e0c4e836a3d377b12e1cc1149ac0dbe2a2"
 
-    # autoupdate.strategy = "latest_github_tag"
+    #autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
@@ -61,7 +61,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev"
+    packages = "build-essential, libcairo2-dev, libpango1.0-dev, libjpeg-dev, libgif-dev, librsvg2-dev"
 
     #[resources.database]
     #type = "mysql"
