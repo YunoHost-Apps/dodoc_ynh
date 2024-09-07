@@ -6,8 +6,11 @@ After=network.target
 Type=simple
 User=__APP__
 Group=__APP__
+Environment="__YNH_NODE_LOAD_PATH__"
+Environment="NODE_ENV=production"
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__YNH_NODE__ node-start
+ExecStart=__INSTALL_DIR__ node-start
+#ExecStart=__YNH_NODE__ start
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline

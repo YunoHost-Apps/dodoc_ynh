@@ -12,11 +12,8 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Installing dependencies..."
 
-ynh_nodejs_install
-
-#=================================================
-# INITIALIZE AND STORE SETTINGS
-#=================================================
+ynh_install_nodejs --nodejs_version=$nodejs_version
+ynh_use_nodejs
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
@@ -54,9 +51,7 @@ yunohost service add "$app" --description="Documentation tool for creativity" --
 ynh_script_progression --message="Installing the app..." --weight=10
 
 pushd "$install_dir"
- 	ynh_use_nodejs
  	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm install --no-optional
-	#ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH $ynh_npm run build
 popd
 
 #=================================================
@@ -64,7 +59,7 @@ popd
 #=================================================
 ynh_script_progression --message="Starting $app's systemd service..." --weight=1
 
-ynh_systemd_action --service_name="$app" --action="start" --log_path="/var/log/$app/$app.log"
+ynh_systemd_action --service_name="$app" --action="start" --log_path="systemd"
 
 #=================================================
 # END OF SCRIPT
