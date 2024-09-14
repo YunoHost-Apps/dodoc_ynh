@@ -9,8 +9,7 @@ Group=__APP__
 Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__NODEJS_DIR__/ node-start
-#ExecStart=__NODEJS_DIR__/node node-start
+ExecStart=__INSTALL_DIR__/ node-start
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline
