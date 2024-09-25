@@ -20,6 +20,8 @@ Designed to document and create stories from hands-on activities, do•doc (pron
 
 **Paketatutako bertsioa:** 10.0.10~ynh1
 
+**Demoa:** <https://test.dodoc.fr/>
+
 ## Pantaila-argazkiak
 
 ![DoDoc(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)

@@ -20,6 +20,8 @@ Designed to document and create stories from hands-on activities, do•doc (pron
 
 **分发版本：** 10.0.10~ynh1
 
+**演示：** <https://test.dodoc.fr/>
+
 ## 截图
 
 ![DoDoc 的截图](./doc/screenshots/screenshot.png)

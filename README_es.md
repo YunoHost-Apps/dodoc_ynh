@@ -20,6 +20,8 @@ Designed to document and create stories from hands-on activities, do•doc (pron
 
 **Versión actual:** 10.0.10~ynh1
 
+**Demo:** <https://test.dodoc.fr/>
+
 ## Capturas
 
 ![Captura de DoDoc](./doc/screenshots/screenshot.png)
@@ -34,7 +36,7 @@ Designed to document and create stories from hands-on activities, do•doc (pron
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/dodoc_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/dodoc_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
