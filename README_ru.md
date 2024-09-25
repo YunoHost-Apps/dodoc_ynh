@@ -20,6 +20,8 @@ Designed to document and create stories from hands-on activities, do•doc (pron
 
 **Поставляемая версия:** 10.0.10~ynh1
 
+**Демо-версия:** <https://test.dodoc.fr/>
+
 ## Снимки экрана
 
 ![Снимок экрана DoDoc](./doc/screenshots/screenshot.png)

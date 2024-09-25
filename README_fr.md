@@ -20,6 +20,8 @@ Conçu pour documenter et créer des récits à partir d'activités pratiques, d
 
 **Version incluse :** 10.0.10~ynh1
 
+**Démo :** <https://test.dodoc.fr/>
+
 ## Captures d’écran
 
 ![Capture d’écran de DoDoc](./doc/screenshots/screenshot.png)
