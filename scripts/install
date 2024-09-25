@@ -41,7 +41,7 @@ yunohost service add "$app" --description="Documentation tool for creativity" --
 ynh_script_progression "Installing the app..."
 
 pushd "$install_dir"
- 	ynh_hide_warnings ynh_exec_as_app npm install #--no-optional
+ 	ynh_hide_warnings ynh_exec_as_app npm install
 popd
 
 pushd "$install_dir/public"

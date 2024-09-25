@@ -1,7 +1,6 @@
 {
   "desired_port": __PORT__,
   "contentPath": "dodoc",
-  "removePermanently": false,
 
   "api": {
     "enabled": false,
