@@ -49,7 +49,7 @@ popd
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="start" --log_path="systemd" --line_match="Server up and running"
+ynh_systemctl --service="$app" --action="start" --log_path="systemd" --wait_until="Server up and running"
 
 #=================================================
 # END OF SCRIPT
