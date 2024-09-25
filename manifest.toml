@@ -7,7 +7,7 @@ name = "DoDoc"
 description.en = "Documentation tool for creativity"
 description.fr = "Outil de documentation pour la créativité"
 
-version = "10.0.10~ynh1"
+version = "11.1.2~ynh1"
 
 maintainers = []
 
@@ -46,10 +46,11 @@ ram.runtime = "50M"
 
     [resources.sources.main]
 
-    url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/refs/tags/v10.0.10.tar.gz"
-    sha256 = "15df9e91f9070885171d8117486023e0c4e836a3d377b12e1cc1149ac0dbe2a2"
 
-    autoupdate.strategy = "latest_github_tag"
+    url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/refs/heads/next-node.zip"
+    sha256 = "4f09dc24b3f40279ce823ab77b93b6b09d06d2cf0335f11c5d0230e09069edbc"
+
+    #autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
@@ -61,7 +62,6 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
-    main.default = 5858
 
     [resources.apt]
     packages = "build-essential, libcairo2-dev, libpango1.0-dev, libjpeg-dev, libgif-dev, librsvg2-dev"

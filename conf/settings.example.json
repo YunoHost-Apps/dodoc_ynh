@@ -1,7 +1,8 @@
 {
-  "desired_port": __PORT__,
+  "protocol": "http",
+  "host": "127.0.0.1",
+  "desired_port": "__PORT__",
   "contentPath": "dodoc",
-  "removePermanently": false,
 
   "api": {
     "enabled": false,
