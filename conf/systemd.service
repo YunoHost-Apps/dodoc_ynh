@@ -1,5 +1,5 @@
 [Unit]
-Description=DoDoc: documentation tool for creativity
+Description=Do•Doc: documentation tool for creativity
 After=network.target
 
 [Service]
@@ -9,7 +9,7 @@ Group=__APP__
 Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__NODEJS_DIR__/node __INSTALL_DIR__/index.js
+ExecStart=__NODEJS_DIR__/node index.js
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline
