@@ -9,11 +9,12 @@ description.fr = "Outil de documentation pour la créativité"
 
 version = "10.0.10~ynh1"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "AGPL-3.0-only"
 website = "https://dodoc.fr/"
+demo = "https://test.dodoc.fr/"
 admindoc = "https://github.com/l-atelier-des-chercheurs/dodoc#readme"
 code = "https://github.com/l-atelier-des-chercheurs/dodoc"
 
