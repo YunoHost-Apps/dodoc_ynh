@@ -44,6 +44,11 @@ pushd "$install_dir"
  	ynh_hide_warnings ynh_exec_as_app npm install #--no-optional
 popd
 
+pushd "$install_dir/public"
+ 	ynh_hide_warnings ynh_exec_as_app npm install
+ 	ynh_hide_warnings ynh_exec_as_app npm run build
+popd
+
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
