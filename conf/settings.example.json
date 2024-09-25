@@ -1,4 +1,6 @@
 {
+  "host": "127.0.0.1",
+  "redirect_port": "__PORT__",
   "desired_port": __PORT__,
   "contentPath": "dodoc",
 
