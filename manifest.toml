@@ -46,7 +46,6 @@ ram.runtime = "50M"
 
     [resources.sources.main]
 
-
     url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/refs/heads/next-node.zip"
     sha256 = "4f09dc24b3f40279ce823ab77b93b6b09d06d2cf0335f11c5d0230e09069edbc"
 
