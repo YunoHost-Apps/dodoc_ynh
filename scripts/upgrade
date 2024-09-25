@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
 
@@ -31,7 +27,7 @@ ynh_config_add --template="settings.example.json" --destination="$install_dir/se
 #=================================================
 # INSTALL DODOC
 #=================================================
-ynh_script_progression "Installing the app..."
+ynh_script_progression "Installing $app..."
 
 pushd "$install_dir"
  	ynh_hide_warnings ynh_exec_as_app npm install #--no-optional
