@@ -30,7 +30,7 @@ ynh_config_add --template="settings.example.json" --destination="$install_dir/se
 ynh_script_progression "Installing $app..."
 
 pushd "$install_dir"
- 	ynh_hide_warnings ynh_exec_as_app npm install #--no-optional
+ 	ynh_hide_warnings ynh_exec_as_app npm install
 popd
 
 #=================================================
