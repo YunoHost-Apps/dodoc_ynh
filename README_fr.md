@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Conçu pour documenter et créer des récits à partir d'activités pratiques, do•doc (prononcer doudoc) est un outil composite, libre et modulaire, qui permet de capturer des médias (photos, vidéos, sons et stop-motion), de les éditer, de les mettre en page et de les publier. Son aspect composite permet de le reconfigurer de manière à ce qu'il soit le plus adapté possible à la situation dans laquelle il est déployé.
 
-**Version incluse :** 10.0.10~ynh1
+**Version incluse :** 11.1.2~ynh1
 
 **Démo :** <https://test.dodoc.fr/>
 
