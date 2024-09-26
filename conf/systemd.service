@@ -1,5 +1,5 @@
 [Unit]
-Description=Do•Doc: documentation tool for creativity
+Description=do•doc: documentation tool for creativity
 After=network.target
 
 [Service]
