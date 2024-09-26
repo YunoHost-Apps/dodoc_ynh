@@ -3,15 +3,15 @@ NB: Deze README is automatisch gegenereerd door <https://github.com/YunoHost/app
 Hij mag NIET handmatig aangepast worden.
 -->
 
-# DoDoc voor Yunohost
+# do•doc voor Yunohost
 
 [![Integratieniveau](https://dash.yunohost.org/integration/dodoc.svg)](https://ci-apps.yunohost.org/ci/apps/dodoc/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/dodoc.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/dodoc.maintain.svg)
 
-[![DoDoc met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
+[![do•doc met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
 
 *[Deze README in een andere taal lezen.](./ALL_README.md)*
 
-> *Met dit pakket kun je DoDoc snel en eenvoudig op een YunoHost-server installeren.*  
+> *Met dit pakket kun je do•doc snel en eenvoudig op een YunoHost-server installeren.*  
 > *Als je nog geen YunoHost hebt, lees dan [de installatiehandleiding](https://yunohost.org/install), om te zien hoe je 'm installeert.*
 
 ## Overzicht
@@ -24,7 +24,7 @@ Designed to document and create stories from hands-on activities, do•doc (pron
 
 ## Schermafdrukken
 
-![Schermafdrukken van DoDoc](./doc/screenshots/screenshot.png)
+![Schermafdrukken van do•doc](./doc/screenshots/screenshot.png)
 
 ## Documentatie en bronnen
 

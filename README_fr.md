@@ -3,15 +3,15 @@ Nota bene : ce README est automatiquement généré par <https://github.com/Yu
 Il NE doit PAS être modifié à la main.
 -->
 
-# DoDoc pour YunoHost
+# do•doc pour YunoHost
 
 [![Niveau d’intégration](https://dash.yunohost.org/integration/dodoc.svg)](https://ci-apps.yunohost.org/ci/apps/dodoc/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/dodoc.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/dodoc.maintain.svg)
 
-[![Installer DoDoc avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
+[![Installer do•doc avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
 
 *[Lire le README dans d'autres langues.](./ALL_README.md)*
 
-> *Ce package vous permet d’installer DoDoc rapidement et simplement sur un serveur YunoHost.*  
+> *Ce package vous permet d’installer do•doc rapidement et simplement sur un serveur YunoHost.*  
 > *Si vous n’avez pas YunoHost, consultez [ce guide](https://yunohost.org/install) pour savoir comment l’installer et en profiter.*
 
 ## Vue d’ensemble
@@ -24,7 +24,7 @@ Conçu pour documenter et créer des récits à partir d'activités pratiques, d
 
 ## Captures d’écran
 
-![Capture d’écran de DoDoc](./doc/screenshots/screenshot.png)
+![Capture d’écran de do•doc](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 

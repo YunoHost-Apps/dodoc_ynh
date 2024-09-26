@@ -3,7 +3,7 @@
 packaging_format = 2
 
 id = "dodoc"
-name = "DoDoc"
+name = "do•doc"
 description.en = "Documentation tool for creativity"
 description.fr = "Outil de documentation pour la créativité"
 
@@ -28,13 +28,17 @@ ldap = false
 
 sso = false
 
-disk = "50M"
-ram.build = "50M"
-ram.runtime = "50M"
+disk = "512M"
+ram.build = "1000M"
+ram.runtime = "512M"
 
 [install]
     [install.domain]
     type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/dodoc"
 
     [install.init_main_permission]
     type = "group"
@@ -63,4 +67,4 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "build-essential, libcairo2-dev, libpango1.0-dev, libjpeg-dev, libgif-dev, librsvg2-dev"
+    packages = "ffmpeg, build-essential, libcairo2-dev, libpango1.0-dev, libjpeg-dev, libgif-dev, librsvg2-dev"

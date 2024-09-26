@@ -3,15 +3,15 @@ Ohart ongi: README hau automatikoki sortu da <https://github.com/YunoHost/apps/t
 EZ editatu eskuz.
 -->
 
-# DoDoc YunoHost-erako
+# do•doc YunoHost-erako
 
 [![Integrazio maila](https://dash.yunohost.org/integration/dodoc.svg)](https://ci-apps.yunohost.org/ci/apps/dodoc/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/dodoc.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/dodoc.maintain.svg)
 
-[![Instalatu DoDoc YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
+[![Instalatu do•doc YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
 
 *[Irakurri README hau beste hizkuntzatan.](./ALL_README.md)*
 
-> *Pakete honek DoDoc YunoHost zerbitzari batean azkar eta zailtasunik gabe instalatzea ahalbidetzen dizu.*  
+> *Pakete honek do•doc YunoHost zerbitzari batean azkar eta zailtasunik gabe instalatzea ahalbidetzen dizu.*  
 > *YunoHost ez baduzu, kontsultatu [gida](https://yunohost.org/install) nola instalatu ikasteko.*
 
 ## Aurreikuspena
@@ -24,7 +24,7 @@ Designed to document and create stories from hands-on activities, do•doc (pron
 
 ## Pantaila-argazkiak
 
-![DoDoc(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
+![do•doc(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
 
 ## Dokumentazioa eta baliabideak
 
