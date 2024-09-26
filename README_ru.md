@@ -3,15 +3,15 @@
 Он НЕ ДОЛЖЕН редактироваться вручную.
 -->
 
-# DoDoc для YunoHost
+# do•doc для YunoHost
 
 [![Уровень интеграции](https://dash.yunohost.org/integration/dodoc.svg)](https://ci-apps.yunohost.org/ci/apps/dodoc/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/dodoc.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/dodoc.maintain.svg)
 
-[![Установите DoDoc с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
+[![Установите do•doc с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
 
 *[Прочтите этот README на других языках.](./ALL_README.md)*
 
-> *Этот пакет позволяет Вам установить DoDoc быстро и просто на YunoHost-сервер.*  
+> *Этот пакет позволяет Вам установить do•doc быстро и просто на YunoHost-сервер.*  
 > *Если у Вас нет YunoHost, пожалуйста, посмотрите [инструкцию](https://yunohost.org/install), чтобы узнать, как установить его.*
 
 ## Обзор
@@ -24,7 +24,7 @@ Designed to document and create stories from hands-on activities, do•doc (pron
 
 ## Снимки экрана
 
-![Снимок экрана DoDoc](./doc/screenshots/screenshot.png)
+![Снимок экрана do•doc](./doc/screenshots/screenshot.png)
 
 ## Документация и ресурсы
 

@@ -3,15 +3,15 @@
 请勿手动编辑。
 -->
 
-# YunoHost 上的 DoDoc
+# YunoHost 上的 do•doc
 
 [![集成程度](https://dash.yunohost.org/integration/dodoc.svg)](https://ci-apps.yunohost.org/ci/apps/dodoc/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/dodoc.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/dodoc.maintain.svg)
 
-[![使用 YunoHost 安装 DoDoc](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
+[![使用 YunoHost 安装 do•doc](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
 
 *[阅读此 README 的其它语言版本。](./ALL_README.md)*
 
-> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 DoDoc。*  
+> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 do•doc。*  
 > *如果您还没有 YunoHost，请参阅[指南](https://yunohost.org/install)了解如何安装它。*
 
 ## 概况
@@ -24,7 +24,7 @@ Designed to document and create stories from hands-on activities, do•doc (pron
 
 ## 截图
 
-![DoDoc 的截图](./doc/screenshots/screenshot.png)
+![do•doc 的截图](./doc/screenshots/screenshot.png)
 
 ## 文档与资源
 
