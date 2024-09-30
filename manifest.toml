@@ -64,4 +64,4 @@ ram.runtime = "512M"
     [resources.ports]
 
     [resources.apt]
-    packages = "ffmpeg, build-essential, libcairo2-dev, libpango1.0-dev, libjpeg-dev, libgif-dev, libgconf-2-4, librsvg2-dev"
+    packages = "ffmpeg, build-essential, libcairo2-dev, libpango1.0-dev, libjpeg-dev, libgif-dev, libgconf-2-4, librsvg2-dev, libatk-bridge2.0-0, libatk1.0-0, libatspi2.0-0, libcups2, libnspr4, libnss3, libxcomposite1, libxdamage1"
