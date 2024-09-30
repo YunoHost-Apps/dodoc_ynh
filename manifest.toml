@@ -9,7 +9,7 @@ description.fr = "Outil de documentation pour la créativité"
 
 version = "11.1.2~ynh1"
 
-maintainers = []
+maintainers = ["eric_G"]
 
 [upstream]
 license = "AGPL-3.0-only"
