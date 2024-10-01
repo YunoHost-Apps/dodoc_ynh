@@ -25,6 +25,15 @@ ynh_script_progression "Adding $app's configuration files..."
 ynh_config_add --template="settings.example.json" --destination="$install_dir/settings.json"
 
 #=================================================
+# HANDLE LOG FILES AND LOGROTATE
+#=================================================
+ynh_script_progression "Configuring log rotation..."
+
+mkdir -p /var/log/$app
+touch /var/log/$app/$app.log
+chown $app -R /var/log/$app
+
+#=================================================
 # SYSTEM CONFIGURATION
 #=================================================
 ynh_script_progression "Adding system configurations related to $app..."
@@ -49,7 +58,7 @@ popd
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="start" --log_path="systemd" --wait_until="Server up and running"
+ynh_systemctl --service="$app" --action="start" --log_path="/var/log/$app/$app.log" --wait_until="Server up and running"
 
 #=================================================
 # END OF SCRIPT
