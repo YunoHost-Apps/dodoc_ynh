@@ -18,7 +18,7 @@
 
 Designed to document and create stories from hands-on activities, do•doc (pronounced doudoc) is a composite, open-source, modular tool that allows you to capture media (photos, videos, sounds, and stop-motion), edit them, lay them out, and publish them. Its composite aspect allows it to be reconfigured so that it is as adapted as possible to the situation in which it is deployed.
 
-**分发版本：** 11.1.2~ynh4
+**分发版本：** 11.1.3~ynh1
 
 **演示：** <https://test.dodoc.fr/>
 
