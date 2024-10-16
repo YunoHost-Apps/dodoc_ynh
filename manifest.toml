@@ -7,7 +7,7 @@ name = "do•doc"
 description.en = "Documentation tool for creativity"
 description.fr = "Outil de documentation pour la créativité"
 
-version = "11.1.3~ynh2"
+version = "11.1.3~ynh3"
 
 maintainers = ["eric_G"]
 
