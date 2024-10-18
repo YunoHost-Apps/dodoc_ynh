@@ -40,6 +40,10 @@ ram.runtime = "512M"
     type = "group"
     default = "visitors"
 
+    [install.project_name]
+    type = "string"
+    default = "my project"
+
 [resources]
 
     [resources.sources]
