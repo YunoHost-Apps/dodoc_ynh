@@ -45,11 +45,10 @@ ram.runtime = "512M"
     [resources.sources]
 
     [resources.sources.main]
-
-    url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/refs/heads/next-node.zip"
-    sha256 = "01736e952a5e5db07f7929c91e380313745a340b69ad5f5c2a964e59ed41b96e"
-
-    #autoupdate.strategy = "latest_github_tag"
+        url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/9a73e40e82c309cf86ffebfbee3ebe1cbb864be7.tar.gz"
+        sha256 = "2857c37c980bde7960b2b33e0ce5ac235a9033195ffac28e3d8cacb8b74e09c2"
+        autoupdate.strategy = "latest_github_commit"
+        autoupdate.branch = "next-node"
 
     [resources.system_user]
 
