@@ -3,7 +3,7 @@
 version = "1.0"
 
 [main]
-name = "Main configuration"
+name = "Do•doc configuration"
 services = ["__APP__"]
 
     [main.project_name]
