@@ -1,0 +1,13 @@
+#:schema https://github.com/YunoHost/apps/raw/master/schemas/config_panel.v1.schema.json
+
+version = "1.0"
+
+[main]
+name = "Main configuration"
+services = ["__APP__"]
+
+    [main.project_name]
+    ask = "Project name"
+    type = "string"
+    help = "Enter the name of your project"
+    bind = ":/var/www/__APP__/settings.json"
