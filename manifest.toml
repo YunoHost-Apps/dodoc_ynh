@@ -47,7 +47,7 @@ ram.runtime = "512M"
     [resources.sources.main]
 
     url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/refs/heads/next-node.zip"
-    sha256 = "01736e952a5e5db07f7929c91e380313745a340b69ad5f5c2a964e59ed41b96e"
+    sha256 = "ef436041f66739d91139b117bbe5d0674d8c32a5f1e795216e2a61868acdf85a"
 
     #autoupdate.strategy = "latest_github_tag"
 
