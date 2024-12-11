@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # do•doc para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/dodoc.svg)](https://ci-apps.yunohost.org/ci/apps/dodoc/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/dodoc.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/dodoc.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/dodoc)](https://ci-apps.yunohost.org/ci/apps/dodoc/)
+![Estado funcional](https://apps.yunohost.org/badge/state/dodoc)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/dodoc)
 
 [![Instalar do•doc con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=dodoc)
 
@@ -18,7 +20,7 @@ No se debe editar a mano.
 
 Designed to document and create stories from hands-on activities, do•doc (pronounced doudoc) is a composite, open-source, modular tool that allows you to capture media (photos, videos, sounds, and stop-motion), edit them, lay them out, and publish them. Its composite aspect allows it to be reconfigured so that it is as adapted as possible to the situation in which it is deployed.
 
-**Versión actual:** 11.1.6~ynh1
+**Versión actual:** 11.1.7~ynh1
 
 **Demo:** <https://test.dodoc.fr/>
 
