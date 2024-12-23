@@ -7,7 +7,7 @@ name = "do•doc"
 description.en = "Documentation tool for creativity"
 description.fr = "Outil de documentation pour la créativité"
 
-version = "11.1.7~ynh2"
+version = "11.1.9~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -19,7 +19,7 @@ admindoc = "https://github.com/l-atelier-des-chercheurs/dodoc#readme"
 code = "https://github.com/l-atelier-des-chercheurs/dodoc"
 
 [integration]
-yunohost = ">= 12.0.8"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -46,7 +46,7 @@ ram.runtime = "512M"
     [resources.sources.main]
 
     url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/refs/heads/next-node.zip"
-    sha256 = "4c56ceb2832c65d6c2dc2e1ca76ec0e1a8dd9665e3ff4a119eadd8f63d00b92b"
+    sha256 = "d6fe5f87e21d0444d38f85810d9fc3ea6f58b4cf59ee7f2b8a8a7618134274ef"
 
     #autoupdate.strategy = "latest_github_tag"
 
