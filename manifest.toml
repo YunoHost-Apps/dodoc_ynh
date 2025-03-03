@@ -7,7 +7,7 @@ name = "do•doc"
 description.en = "Documentation tool for creativity"
 description.fr = "Outil de documentation pour la créativité"
 
-version = "11.1.20~ynh2"
+version = "11.1.21~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -46,7 +46,7 @@ ram.runtime = "512M"
     [resources.sources.main]
 
     url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/refs/heads/main-node.zip"
-    sha256 = "d48f948f7a3c3bf2a6fceddb68d7e84474887cdbb6c73e33bbb2626f011186e6"
+    sha256 = "d0491c034db332f8d15da6fe0077f8d9a47ae9388a3f23d7d376cc4066f4f556"
 
     #autoupdate.strategy = "latest_github_tag"
 
