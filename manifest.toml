@@ -19,7 +19,7 @@ admindoc = "https://github.com/l-atelier-des-chercheurs/dodoc#readme"
 code = "https://github.com/l-atelier-des-chercheurs/dodoc"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -108,3 +108,6 @@ ram.runtime = "512M"
     "lsb-release",
     "wget"
     ]
+
+    [resources.nodejs]
+    version = "20"
