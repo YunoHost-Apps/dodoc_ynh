@@ -110,4 +110,4 @@ ram.runtime = "512M"
     ]
 
     [resources.nodejs]
-    version = "20"
+    version = "20.18.1"
