@@ -33,7 +33,7 @@ yunohost service add "$app" --description="Documentation tool for creativity" --
 ynh_script_progression "Installing the app..."
 
 pushd "$install_dir"
- 	ynh_hide_warnings ynh_exec_as_app npm install
+ 	ynh_hide_warnings ynh_exec_as_app npm install --include=optional sharp
 popd
 
 #=================================================
@@ -41,7 +41,7 @@ popd
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="start" --log_path="systemd" --wait_until="Server up and running"
+ynh_systemctl --service="$app" --action="start" --log_path="systemd" #--wait_until="Server up and running"
 
 #=================================================
 # END OF SCRIPT
