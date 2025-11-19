@@ -8,5 +8,16 @@
     "enabled": false,
     "allow_all_domains": false,
     "domains_whitelist": ["127.0.0.1"]
+  },
+
+  "mailer": {
+    "host": "localhost",
+    "port": "25",
+    "secure": false,
+    "auth": {
+      "user": "__APP__",
+      "pass": "__MAIL_PWD__"
+    },
+    "from": "dodoc@__DOMAIN__"
   }
 }
