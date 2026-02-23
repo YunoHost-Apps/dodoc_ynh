@@ -69,7 +69,6 @@ ram.runtime = "512M"
     "build-essential",
     "libjpeg-dev",
     "libgif-dev",
-    "libgconf-2-4",
     "libpango1.0-dev",
     "libc6",
     "libnss3",
