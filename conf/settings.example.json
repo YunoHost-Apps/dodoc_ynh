@@ -18,6 +18,6 @@
       "user": "__APP__",
       "pass": "__MAIL_PWD__"
     },
-    "from": "dodoc@__DOMAIN__"
+    "from": "__APP__@__DOMAIN__"
   }
 }
