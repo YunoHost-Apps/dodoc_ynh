@@ -110,4 +110,4 @@ ram.runtime = "512M"
     ]
 
     [resources.nodejs]
-    version = "22.22.0"
+    version = "24.14.0"
