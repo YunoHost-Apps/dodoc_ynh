@@ -7,7 +7,7 @@ name = "do•doc"
 description.en = "Documentation tool for creativity"
 description.fr = "Outil de documentation pour la créativité"
 
-version = "12.0.26~ynh1"
+version = "13.0.32~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -19,7 +19,7 @@ admindoc = "https://github.com/l-atelier-des-chercheurs/dodoc#readme"
 code = "https://github.com/l-atelier-des-chercheurs/dodoc"
 
 [integration]
-yunohost = ">= 12.1.17"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -45,13 +45,14 @@ ram.runtime = "512M"
 
     [resources.sources.main]
 
-    url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/refs/tags/12.0.26-node.tar.gz"
-    sha256 = "0a2e249c0e74f5ad2b276384b9678059089b230e9762d51ddea403d98999cd19"
+    url = "https://github.com/l-atelier-des-chercheurs/dodoc/archive/refs/tags/v13.0.32.tar.gz"
+    sha256 = "e56c4ea70ecfa38cbd94d37d0cc58d72d1868f74b0e02bae795c515a84f111bb"
 
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
-
+    allow_email = true
+    
     [resources.install_dir]
 
     [resources.data_dir]
@@ -68,7 +69,6 @@ ram.runtime = "512M"
     "build-essential",
     "libjpeg-dev",
     "libgif-dev",
-    "libgconf-2-4",
     "libpango1.0-dev",
     "libc6",
     "libnss3",
@@ -110,4 +110,4 @@ ram.runtime = "512M"
     ]
 
     [resources.nodejs]
-    version = "22.19.0"
+    version = "24.14.0"

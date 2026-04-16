@@ -9,7 +9,7 @@ Group=__APP__
 Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__NODEJS_DIR__/node index.js
+ExecStart=__NODEJS_DIR__/npm start
 Restart=on-failure
 
 [Install]
